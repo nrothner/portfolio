@@ -6,10 +6,12 @@
 -->
 <html>
 	<head>
-		<title>Practice Site 3</title>
+		<title>Nicole Rothner</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/64757835ba.js" crossorigin="anonymous"></script>
+
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -28,9 +30,9 @@
 				<nav id="nav">
 					<ul>
 						<li class="current"><a href="index.html">Home</a></li>
-						<li><a href="education.html">Education</a></li>
-						<li><a href="work experience.html">Work Experience</a></li>
-						<li><a href="future.html">Future</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="about.html">About Me</a></li>
 						<li><a href="mailto:nrothner@gmu.edu">Contact</a></li>
 					</ul>
 				</nav>
@@ -38,7 +40,7 @@
 			<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<h2>Welcome to my third HTML Practice Site</h2>
+						<h2>UX Front-End Applications Developer</h2>
 						
 					</div>
 				</section> 
@@ -47,73 +49,79 @@
 				<section id="main">
 					<div class="container">
 						<div class="row gtr-200">
-							<div class="col-12">
-								<section class="box highlight">
-										<header>
-											<h2>About Me</h2>
-										</header>
-										<p>
-											Hello, and welcome to my site! My name is Nicole Rothner and I'm currently a self taught front end developer working towards my Master's in Human Factors & Applied Cognition at George Mason University. 
-											I work in a variety of platforms including WordPress (Divi Theme), SharePoint 2016, SharePoint 2019, SharePoint Online, Drupal, and occasionally HTML/CSS sites but everything I know has either been self-taught or on the job training.
-										</p>
-									</section>
+							<div class="col-6 col-6-medium col-12-small">
 
-									<figure class="me">
-										<img src="https://nrothner.github.io/practicesite2/imgs/my_picture.JPG" alt="Me at the festival of lights" height="504" width="378">		
-									</figure>
+								<figure class="me">
+									<img src="https://nrothner.github.io/practicesite2/imgs/my_picture.JPG" alt="Me at the festival of lights" height="100%" width="60%">		
+								</figure>
 
 							</div>
+							<div class="col-6 col-6-medium col-12-small">
+								<section class="box highlight left">
+										<header>
+											<h2>About me</h2>
+										</header>
+										<p class="together">
+											Hello, and welcome to my site! My name is Nicole Rothner and I am currently a front-end applications developer. I have a passion for UX and will complete my Master's in Human Factors & Applied Cognition at George Mason University in Spring 2021.</p>
+											
+											<p class="together">I work in a variety of platforms including WordPress (Divi Theme),SharePoint 2016, SharePoint 2019, SharePoint Online, Drupal, and  HTML/CSS sites. </p>
+
+											<p class="together">I strive to create the most user-friendly and intuitive websites. Need a website?</p>
+
+											<p><a href="mailto:nrothner@gmu.edu" class="button large">Get in touch</a></p>
+										
+									</section>
+									</div>
 						</div>
 						<div class="col-12">
 
 							<!-- Features -->
-								<section class="box features">
-									<h2 class="major"><span>Some Places I've lived</span></h2>
-									<p>I've moved around a lot throughout my childhood and have had some great experiences. I currently reside in Northern Virginia, but I love to travel and see new places. Here are some places I've previously lived.</p>
+								<section class="box feature">
+									<h2 class="major" id="platforms"><span>Areas of expertise</span></h2>
+									<p>I enjoy working in content mangement systems to optimise performance. I have worked in a variety of platforms by my most frequent ones are below.</p>
 									<div>
 										<div class="row">
 											<div class="col-3 col-6-medium col-12-small">
 
 												<!-- Feature -->
 													<section class="box feature">
-														<img class="image featured" src="images/nova.jpg" alt="northern virginia" width=200 height=150/>
-														<h3>Northern Virginia</h3>
+														<ul class="contact icon brands fab fa-wordpress" aria-hidden="true"></ul>
+														<h3>WordPress</h3>
 													</section>
+											</div>
+											<div class="col-3 col-6-medium col-12-small">
+
+												<!-- Feature -->
+												<section class="box feature contact icon brands">
+													<i class="fas fa-users"></i>
+													<h3>SharePoint Online</h3>
+												</section>
 
 											</div>
 											<div class="col-3 col-6-medium col-12-small">
 
 												<!-- Feature -->
-													<section class="box feature">
-														<img class="image featured" src="images/delaware.jpg" alt="delaware" width=200 height=150/>
-														<h3>Delaware</h3>
-													</section>
+												<section class="box feature">
+													<ul class="contact icon brands fab fa-drupal" aria-hidden="true"></ul>
+													<h3>Drupal</h3>
+												</section>
 
 											</div>
 											<div class="col-3 col-6-medium col-12-small">
 
 												<!-- Feature -->
-													<section class="box feature">
-														<img class="image featured" src="images/island.jpg" alt="saint maarten" width=200 height=150/>
-														<h3>St. Maarten</h3>
-													</section>
+												<section class="box feature contact icon brands">
+													<i class="fas fa-code"></i>
+													<h3>HTML/CSS</h3>
+												</section>
 
-											</div>
-											<div class="col-3 col-6-medium col-12-small">
-
-												<!-- Feature -->
-													<section class="box feature">
-														<img class="image featured" src="images/chicago.jpg" alt="chicago" width=200 height=150 />
-														<h3>Chicago</h3>
-													</section>
-
-											</div>
+											</div> <!-- Not really needed right now
 											<div class="col-12">
 												<ul class="actions">
 													<li><a href="education.html" class="button large">View my education</a></li>
 													<li><a href="work experience.html" class="button large">Check out my work</a></li>
 												</ul>
-											</div>
+											</div>-->
 										</div>
 									</div>
 								</section>
@@ -138,9 +146,8 @@
 							<!-- Contact -->
 								<section>
 									<h2 class="major"><span>Get in touch</span></h2>
-									<ul class="contact">
-										<li><a class="icon brands fa-linkedin-in" href="https://www.linkedin.com/in/nicolerothner/"><span class="label">LinkedIn</span></a></li>
-									</ul>
+									<ul class="contact icon brands">
+										<li><a class="icon brands fa-linkedin-in" href="https://www.linkedin.com/in/nicolerothner/"><span class="label">LinkedIn</span></a></li></ul>
 								</section>
 
 						</div>
@@ -149,7 +156,7 @@
 					<!-- Copyright -->
 						<div id="copyright">
 							<ul class="menu">
-								<li>&copy; Nicole Rothner. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Nicole Rothner. All rights reserved</li><li class="credit">Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 
