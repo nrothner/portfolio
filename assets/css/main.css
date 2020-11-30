@@ -3189,7 +3189,7 @@ input, select, textarea {
 
   /* border and styles of resume sidebar */
   .sidebar {
-	  border: 8px double rgb(216, 216, 216);
+	  border: 8px ridge rgb(221, 221, 221);
 	  padding: 10px;
   }
 
