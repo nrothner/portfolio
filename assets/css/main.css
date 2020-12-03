@@ -3214,6 +3214,13 @@ input, select, textarea {
 }
 
 /*Center contact form */
-.form {
+.center {
 	margin: 0 auto;
+	display: block;
+}
+
+/*Prototype button */
+.prototype {
+	margin: 10px auto;
+	width: auto;
 }
