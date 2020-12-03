@@ -3102,7 +3102,7 @@ input, select, textarea {
     font-size: 3em;
     padding: 3rem;
 }
-.fa-linkedin:hover,  {
+.fa-linkedin:hover {
     color: #d5d5d5;
 } 
 
@@ -3211,4 +3211,9 @@ input, select, textarea {
 	display: block;
 	margin: 0 auto;
 	width: auto;
+}
+
+/*Center contact form */
+.form {
+	margin: 0 auto;
 }
