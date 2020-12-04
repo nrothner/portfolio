@@ -3228,8 +3228,6 @@ input, select, textarea {
 }
 
 /* Fix for the iFrame sizing in mobile view */
-
-
 @media screen and (max-width: 980px) {
 	.contact-fix {
 		position: relative;
@@ -3264,5 +3262,4 @@ input, select, textarea {
     width: 100%;
     height: 100%;
 }
-
 
