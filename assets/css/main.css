@@ -3230,8 +3230,8 @@ input, select, textarea {
 /* Fix for the iFrame sizing in mobile view */
 .frame-fix {
 	position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
+    padding-bottom: 150%;
+    padding-top: 0;
     height: 0;
     overflow: hidden;
 }
@@ -3244,6 +3244,3 @@ input, select, textarea {
     height: 100%;
 }
 
-#contact-me {
-	overflow: scroll;
-}
