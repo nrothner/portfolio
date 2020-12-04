@@ -3228,13 +3228,45 @@ input, select, textarea {
 }
 
 /* Fix for the iFrame sizing in mobile view */
+
+@media screen and (min-width: 762px) {
+	#contact-fix {
+		position: relative;
+		padding-bottom: 85%;
+		padding-top: 0;
+		height: 0;
+		overflow: hidden;
+	}
+	}
+
+	@media screen and (max-width: 761px) (min-width: 625) {
+		#contact-fix {
+				position: relative;
+				padding-bottom: 150%;
+				padding-top: 0;
+				height: 0;
+				overflow: hidden;
+			}
+			}
+
+	@media screen and (max-width: 624px) {
+	#contact-fix {
+			position: relative;
+			padding-bottom: 150%;
+			padding-top: 0;
+			height: 0;
+			overflow: hidden;
+		}
+		}
+
 .frame-fix {
-	position: relative;
-    padding-bottom: 150%;
-    padding-top: 0;
-    height: 0;
-    overflow: hidden;
-}
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 35px;
+		height: 0;
+		overflow: hidden;
+	}
+	}
 
 .frame-fix iframe {
 	position: absolute;
