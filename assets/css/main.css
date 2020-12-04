@@ -3233,7 +3233,7 @@ input, select, textarea {
 		position: relative;
 		padding-bottom: 150%;
 		height: 0;
-		overflow: scroll;
+		overflow: hidden;
 	}
 	}
 
@@ -3242,7 +3242,7 @@ input, select, textarea {
 			position: relative;
 			padding-bottom: 80%;
 			height: 0;
-			overflow: scroll;
+			overflow: hidden;
 		}
 		}
 
