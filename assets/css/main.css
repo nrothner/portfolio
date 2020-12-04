@@ -9,8 +9,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -1791,6 +1790,15 @@ input, select, textarea {
 			margin-bottom: 40px;
 		}
 
+		/* Portfolio image takes full screen on phone */
+		@media screen and (max-width: 736px) {
+		.portfolio-image {
+			margin: 0 auto;
+			height: 50%;
+			width: 100%;
+		}
+	}
+
 /* Button */
 
 	input[type="button"],
@@ -3219,8 +3227,19 @@ input, select, textarea {
 	display: block;
 }
 
-/*Prototype button */
-.prototype {
-	margin: 10px auto;
-	width: auto;
+/* Fix for the iFrame sizing in mobile view */
+.frame-fix {
+	position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.frame-fix iframe {
+	position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
